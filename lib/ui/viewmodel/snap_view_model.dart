@@ -11,6 +11,7 @@ import '../../core/services/notification_service.dart';
 import 'package:video_compress/video_compress.dart';
 import 'package:path/path.dart' as p;
 import 'package:flutter_image_compress/flutter_image_compress.dart';
+import 'package:flutter_cache_manager/flutter_cache_manager.dart';
 
 class SnapViewModel extends ChangeNotifier {
   final YoutubeDLExtractor _videoExtractor;
@@ -85,7 +86,7 @@ class SnapViewModel extends ChangeNotifier {
     String outputPath,
     SettingsService settings,
   ) async {
-    const int notificationId = 1001;
+    final int notificationId = metadata.sourceUrl.hashCode.abs();
 
     _state = const progress_models.Analyzing("Preparing download...");
     notifyListeners();
@@ -146,10 +147,25 @@ class SnapViewModel extends ChangeNotifier {
               maxProgress: 100,
             );
           } else if (progress is progress_models.Success) {
+            // Get thumbnail from cache for the notification
+            String? thumbPath;
+            try {
+              final thumbUrl = metadata.thumbnailUrl;
+              if (thumbUrl != null && thumbUrl.isNotEmpty) {
+                final fileInfo = await DefaultCacheManager().getFileFromCache(
+                  thumbUrl,
+                );
+                thumbPath = fileInfo?.file.path;
+              }
+            } catch (e) {
+              debugPrint("Failed to get thumbnail for notification: $e");
+            }
+
             await _notificationService.showSuccessNotification(
               id: notificationId,
               title: "Download Complete",
               body: metadata.title,
+              largeIconPath: thumbPath,
             );
           } else if (progress is progress_models.Error) {
             await _notificationService.showErrorNotification(

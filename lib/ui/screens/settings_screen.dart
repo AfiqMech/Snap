@@ -688,12 +688,26 @@ class _SettingsScreenState extends State<SettingsScreen> {
         _buildIconTile(
           icon: Icons.code,
           title: 'View on GitHub',
-          subtitle: 'Source code & issues',
+          subtitle: 'AfiqMech/Snap',
           showExternal: true,
           colorScheme: colorScheme,
           onTap: () {
             launchUrl(
               Uri.parse('https://github.com/AfiqMech/Snap'),
+              mode: LaunchMode.externalApplication,
+            );
+          },
+        ),
+        _buildDivider(colorScheme),
+        _buildIconTile(
+          icon: Icons.person_outline,
+          title: 'Follow Author',
+          subtitle: 'github.com/AfiqMech',
+          showExternal: true,
+          colorScheme: colorScheme,
+          onTap: () {
+            launchUrl(
+              Uri.parse('https://github.com/AfiqMech'),
               mode: LaunchMode.externalApplication,
             );
           },

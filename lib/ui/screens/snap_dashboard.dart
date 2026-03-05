@@ -215,9 +215,16 @@ class _SnapDashboardState extends State<SnapDashboard> {
             state is progress_models.Analyzing ||
             state is progress_models.Downloading;
 
-        // Show config sheet only when metadata is successfully extracted
+        // Show config sheet immediately when analyzing (for Quick Download flow)
+        // OR when metadata is finally ready.
         WidgetsBinding.instance.addPostFrameCallback((_) {
-          if (viewModel.metadata != null && !viewModel.hasShownConfigSheet) {
+          final isReady = viewModel.metadata != null;
+          final isAnalyzing = viewModel.state is progress_models.Analyzing;
+
+          if ((isReady || isAnalyzing) && !viewModel.hasShownConfigSheet) {
+            // In normal mode, we only auto-pop if we are analyzing a non-empty URL
+            if (!_isQuickMode && _urlController.text.isEmpty) return;
+
             viewModel.markConfigSheetShown();
             DownloadConfigSheet.show(context, viewModel.metadata, (formatId) {
               if (viewModel.metadata != null) {
@@ -233,6 +240,8 @@ class _SnapDashboardState extends State<SnapDashboard> {
                   _isQuickMode = false;
                 });
               } else if (_isQuickMode) {
+                // If they dismiss the sheet in Quick Mode without starting a download,
+                // we should close the app.
                 SystemNavigator.pop();
               }
             });

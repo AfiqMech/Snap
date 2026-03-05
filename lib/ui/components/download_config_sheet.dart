@@ -305,9 +305,11 @@ class _DownloadConfigSheetState extends State<DownloadConfigSheet> {
                           Padding(
                             padding: const EdgeInsets.only(left: 8),
                             child: OutlinedButton.icon(
-                              onPressed: () {
-                                Navigator.pop(context, 'open_full');
-                              },
+                              onPressed: widget.metadata == null
+                                  ? null
+                                  : () {
+                                      Navigator.pop(context, 'open_full');
+                                    },
                               icon: const Icon(
                                 Icons.open_in_new_rounded,
                                 size: 14,
@@ -472,19 +474,24 @@ class _DownloadConfigSheetState extends State<DownloadConfigSheet> {
                   Expanded(
                     flex: 7, // 70% width
                     child: FilledButton.icon(
-                      onPressed: () {
-                        Navigator.pop(context);
-                        final actualFormatId = _selectedType == 'image'
-                            ? "photo_best"
-                            : _selectedQuality;
-                        widget.onStartDownload(actualFormatId);
+                      onPressed: widget.metadata == null
+                          ? null
+                          : () {
+                              Navigator.pop(context);
+                              final actualFormatId = _selectedType == 'image'
+                                  ? "photo_best"
+                                  : _selectedQuality;
+                              widget.onStartDownload(actualFormatId);
 
-                        if (widget.isQuickMode) {
-                          Future.delayed(const Duration(milliseconds: 500), () {
-                            SystemNavigator.pop();
-                          });
-                        }
-                      },
+                              if (widget.isQuickMode) {
+                                Future.delayed(
+                                  const Duration(milliseconds: 500),
+                                  () {
+                                    SystemNavigator.pop();
+                                  },
+                                );
+                              }
+                            },
                       icon: const Icon(Icons.download_rounded),
                       label: Text(
                         _getDownloadButtonText(),
@@ -501,7 +508,7 @@ class _DownloadConfigSheetState extends State<DownloadConfigSheet> {
                         backgroundColor: colorScheme.primary,
                         foregroundColor: colorScheme.onPrimary,
                         shape: const StadiumBorder(),
-                        elevation: 4,
+                        elevation: widget.metadata == null ? 0 : 4,
                         shadowColor: colorScheme.primary.withValues(alpha: 0.4),
                       ),
                     ),

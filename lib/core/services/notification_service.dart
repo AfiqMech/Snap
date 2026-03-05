@@ -67,17 +67,21 @@ class NotificationService {
     required int id,
     required String title,
     required String body,
+    String? largeIconPath,
   }) async {
-    const AndroidNotificationDetails androidPlatformChannelSpecifics =
+    final AndroidNotificationDetails androidPlatformChannelSpecifics =
         AndroidNotificationDetails(
           channelId,
           channelName,
           channelDescription: channelDescription,
-          importance: Importance.defaultImportance,
-          priority: Priority.defaultPriority,
+          importance: Importance.high,
+          priority: Priority.high,
+          largeIcon: largeIconPath != null
+              ? FilePathAndroidBitmap(largeIconPath)
+              : null,
         );
 
-    const NotificationDetails platformChannelSpecifics = NotificationDetails(
+    final NotificationDetails platformChannelSpecifics = NotificationDetails(
       android: androidPlatformChannelSpecifics,
     );
 

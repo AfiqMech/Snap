@@ -113,6 +113,10 @@ class SnapApp extends StatelessWidget {
                 useOled: themeSettings.useOled,
               ),
               themeMode: themeSettings.themeMode,
+              // Disable Flutter's AnimatedTheme crossfade — it interpolates
+              // every color on every frame for 200ms, causing repaint storms.
+              // Instant switch is smoother on all devices.
+              themeAnimationDuration: Duration.zero,
               home: child!,
             );
           },

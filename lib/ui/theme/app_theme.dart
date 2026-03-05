@@ -14,20 +14,62 @@ class AppTheme {
     ThemeData.dark().textTheme,
   );
 
-  // Helper to build ThemeData dynamically
+  // Cache fully-built ThemeData objects so we never reconstruct them
+  // during a theme toggle. Each unique combination gets its own cached entry.
+  static ThemeData? _cachedLight;
+  static ThemeData? _cachedDark;
+  static ThemeData? _cachedDarkOled;
+  static ColorScheme? _cachedLightScheme;
+  static ColorScheme? _cachedDarkScheme;
+  static bool _cachedOled = false;
+
+  /// Returns a cached ThemeData, rebuilding only when the ColorScheme or
+  /// OLED flag actually changes.
   static ThemeData buildTheme(
     ColorScheme colorScheme, {
     required bool isDark,
     bool useOled = false,
   }) {
-    // If OLED is enabled and it's dark mode, force the surface and background to pure black
-    if (isDark && useOled) {
-      colorScheme = colorScheme.copyWith(
-        surface: Colors.black,
-        // In Material 3 `background` is deprecated in favor of `surface`, but we'll set both if needed
-      );
+    if (!isDark) {
+      if (_cachedLight != null && _cachedLightScheme == colorScheme) {
+        return _cachedLight!;
+      }
+      _cachedLightScheme = colorScheme;
+      _cachedLight = _buildThemeData(colorScheme, isDark: false);
+      return _cachedLight!;
+    } else {
+      if (useOled) {
+        if (_cachedDarkOled != null &&
+            _cachedDarkScheme == colorScheme &&
+            _cachedOled == useOled) {
+          return _cachedDarkOled!;
+        }
+      } else {
+        if (_cachedDark != null &&
+            _cachedDarkScheme == colorScheme &&
+            _cachedOled == useOled) {
+          return _cachedDark!;
+        }
+      }
+      _cachedDarkScheme = colorScheme;
+      _cachedOled = useOled;
+      final scheme = useOled
+          ? colorScheme.copyWith(surface: Colors.black)
+          : colorScheme;
+      if (useOled) {
+        _cachedDarkOled = _buildThemeData(scheme, isDark: true);
+        return _cachedDarkOled!;
+      } else {
+        _cachedDark = _buildThemeData(scheme, isDark: true);
+        return _cachedDark!;
+      }
     }
+  }
 
+  static ThemeData _buildThemeData(
+    ColorScheme colorScheme, {
+    required bool isDark,
+  }) {
     return ThemeData(
       useMaterial3: true,
       brightness: isDark ? Brightness.dark : Brightness.light,
@@ -41,8 +83,7 @@ class AppTheme {
       ),
       elevatedButtonTheme: _elevatedButtonTheme,
       cardTheme: isDark ? _cardThemeDark : _cardThemeLight,
-      scaffoldBackgroundColor:
-          Colors.transparent, // Allow transparency to flow through
+      scaffoldBackgroundColor: Colors.transparent,
       inputDecorationTheme: isDark
           ? _darkInputDecorationTheme
           : _lightInputDecorationTheme,

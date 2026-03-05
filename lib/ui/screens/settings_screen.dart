@@ -88,7 +88,9 @@ class _SettingsScreenState extends State<SettingsScreen> {
   @override
   Widget build(BuildContext context) {
     final colorScheme = Theme.of(context).colorScheme;
-    final settings = context.watch<SettingsService>();
+    // NOTE: Do NOT use context.watch here — it would rebuild the entire
+    // 800-line settings screen on every single setting change.
+    // Instead, each section uses Consumer internally.
 
     return Scaffold(
       backgroundColor: colorScheme.surface,
@@ -123,27 +125,50 @@ class _SettingsScreenState extends State<SettingsScreen> {
           ),
           children: [
             _buildSectionHeader('Theme', colorScheme),
-            _buildThemeSection(context, settings, colorScheme),
+            // Consumer scopes rebuild to just this card
+            Consumer<SettingsService>(
+              builder: (context, settings, _) =>
+                  _buildThemeSection(context, settings, colorScheme),
+            ),
             const SizedBox(height: 32),
 
             _buildSectionHeader('Network & Background', colorScheme),
-            _buildNetworkSection(context, settings, colorScheme),
+            Consumer<SettingsService>(
+              builder: (context, settings, _) =>
+                  _buildNetworkSection(context, settings, colorScheme),
+            ),
             const SizedBox(height: 32),
 
             _buildSectionHeader('Notifications & Battery', colorScheme),
-            _buildNotificationsSection(context, settings, colorScheme),
+            Consumer<SettingsService>(
+              builder: (context, settings, _) =>
+                  _buildNotificationsSection(context, settings, colorScheme),
+            ),
             const SizedBox(height: 32),
 
             _buildSectionHeader('General', colorScheme),
-            _buildGeneralSection(context, settings, colorScheme),
+            Consumer<SettingsService>(
+              builder: (context, settings, _) =>
+                  _buildGeneralSection(context, settings, colorScheme),
+            ),
             const SizedBox(height: 32),
 
             _buildSectionHeader('Content Preferences', colorScheme),
-            _buildContentPreferencesSection(context, settings, colorScheme),
+            Consumer<SettingsService>(
+              builder: (context, settings, _) =>
+                  _buildContentPreferencesSection(
+                    context,
+                    settings,
+                    colorScheme,
+                  ),
+            ),
             const SizedBox(height: 32),
 
             _buildSectionHeader('Account & Authentication', colorScheme),
-            _buildAccountSection(context, settings, colorScheme),
+            Consumer<SettingsService>(
+              builder: (context, settings, _) =>
+                  _buildAccountSection(context, settings, colorScheme),
+            ),
             const SizedBox(height: 32),
 
             _buildSectionHeader('Support & Social', colorScheme),

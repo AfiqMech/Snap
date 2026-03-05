@@ -72,7 +72,7 @@ class ToolkitSection extends StatelessWidget {
   }
 }
 
-class _ToolCard extends StatelessWidget {
+class _ToolCard extends StatefulWidget {
   final String title;
   final String subtitle;
   final IconData icon;
@@ -90,13 +90,33 @@ class _ToolCard extends StatelessWidget {
   });
 
   @override
+  State<_ToolCard> createState() => _ToolCardState();
+}
+
+class _ToolCardState extends State<_ToolCard> {
+  // Prevents multiple Navigator pushes from rapid taps
+  bool _isNavigating = false;
+
+  void _handleTap() {
+    if (_isNavigating) return;
+    setState(() => _isNavigating = true);
+    Future.microtask(() async {
+      try {
+        widget.onTap();
+      } finally {
+        if (mounted) setState(() => _isNavigating = false);
+      }
+    });
+  }
+
+  @override
   Widget build(BuildContext context) {
     return BouncingButton(
-      onPressed: onTap,
+      onPressed: _handleTap,
       child: Container(
         height: 200,
         decoration: BoxDecoration(
-          color: containerColor,
+          color: widget.containerColor,
           borderRadius: BorderRadius.circular(32),
         ),
         clipBehavior: Clip.antiAlias,
@@ -109,11 +129,11 @@ class _ToolCard extends StatelessWidget {
                 height: 100,
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
-                  color: onContainerColor.withValues(alpha: 0.1),
+                  color: widget.onContainerColor.withValues(alpha: 0.1),
                 ),
                 child: Icon(
-                  icon,
-                  color: onContainerColor.withValues(alpha: 0.2),
+                  widget.icon,
+                  color: widget.onContainerColor.withValues(alpha: 0.2),
                   size: 64,
                 ),
               ),
@@ -129,12 +149,12 @@ class _ToolCard extends StatelessWidget {
                   vertical: 12,
                 ),
                 decoration: BoxDecoration(
-                  color: onContainerColor.withValues(alpha: 0.05),
+                  color: widget.onContainerColor.withValues(alpha: 0.05),
                   borderRadius: BorderRadius.circular(24),
                 ),
                 child: Row(
                   children: [
-                    Icon(icon, color: onContainerColor, size: 20),
+                    Icon(widget.icon, color: widget.onContainerColor, size: 20),
                     const SizedBox(width: 12),
                     Expanded(
                       child: Column(
@@ -142,18 +162,20 @@ class _ToolCard extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            title,
+                            widget.title,
                             style: TextStyle(
-                              color: onContainerColor,
+                              color: widget.onContainerColor,
                               fontWeight: FontWeight.w900,
                               fontSize: 14,
                               height: 1.1,
                             ),
                           ),
                           Text(
-                            subtitle,
+                            widget.subtitle,
                             style: TextStyle(
-                              color: onContainerColor.withValues(alpha: 0.7),
+                              color: widget.onContainerColor.withValues(
+                                alpha: 0.7,
+                              ),
                               fontSize: 10,
                             ),
                           ),

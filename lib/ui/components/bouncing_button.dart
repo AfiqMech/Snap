@@ -24,6 +24,7 @@ class _BouncingButtonState extends State<BouncingButton>
     with SingleTickerProviderStateMixin {
   late AnimationController _controller;
   late Animation<double> _scaleAnimation;
+  bool _canPress = true; // Spam guard — prevents rapid multi-fire
 
   @override
   void initState() {
@@ -46,22 +47,25 @@ class _BouncingButtonState extends State<BouncingButton>
   }
 
   void _onTapDown(TapDownDetails details) {
-    if (widget.onPressed != null) {
-      _controller.forward();
-    }
+    if (widget.onPressed == null || !_canPress) return;
+    _canPress = false;
+    _controller.forward();
   }
 
   void _onTapUp(TapUpDetails details) {
-    if (widget.onPressed != null) {
-      _controller.reverse();
-      widget.onPressed!();
-    }
+    if (widget.onPressed == null) return;
+    _controller.reverse().then((_) {
+      if (mounted) {
+        _canPress = true;
+        widget.onPressed!();
+      }
+    });
   }
 
   void _onTapCancel() {
-    if (widget.onPressed != null) {
-      _controller.reverse();
-    }
+    _controller.reverse().then((_) {
+      if (mounted) _canPress = true;
+    });
   }
 
   @override

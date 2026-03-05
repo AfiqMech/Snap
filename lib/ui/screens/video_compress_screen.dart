@@ -118,14 +118,12 @@ class _VideoCompressScreenState extends State<VideoCompressScreen> {
                 const SizedBox(height: 12),
                 BouncingButton(
                   onPressed: _pickVideo,
-                  child: GestureDetector(
-                    onTap: _pickVideo,
-                    child: Container(
-                      padding: const EdgeInsets.all(16),
-                      decoration: BoxDecoration(
-                        color: colorScheme.surfaceContainer,
-                        borderRadius: BorderRadius.circular(24),
-                        border: Border.all(
+                  child: Container(
+                    padding: const EdgeInsets.all(16),
+                    decoration: BoxDecoration(
+                      color: colorScheme.surfaceContainer,
+                      borderRadius: BorderRadius.circular(24),
+                      border: Border.all(
                           color: _selectedFile == null
                               ? colorScheme.outlineVariant
                               : colorScheme.primary.withValues(alpha: 0.5),

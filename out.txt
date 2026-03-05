@@ -1,0 +1,18 @@
+Analyzing Snap...
+
+  error - lib\ui\screens\settings_screen.dart:81:37 - The getter 'dynamicColorEnabled' isn't defined for the type 'SettingsService'. Try importing the library that defines 'dynamicColorEnabled', correcting the name to the name of an existing getter, or defining a getter or field named 'dynamicColorEnabled'. - undefined_getter
+  error - lib\ui\screens\settings_screen.dart:82:50 - The method 'setDynamicColor' isn't defined for the type 'SettingsService'. Try correcting the name to the name of an existing method, or defining a method named 'setDynamicColor'. - undefined_method
+warning - lib\ui\screens\snap_dashboard.dart:207:34 - Unnecessary cast. Try removing the cast. - unnecessary_cast
+warning - lib\ui\screens\video_compress_screen.dart:5:8 - Unused import: 'package:path_provider/path_provider.dart'. Try removing the import directive. - unused_import
+   info - lib\ui\components\download_config_sheet.dart:344:29 - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\ui\screens\image_compress_screen.dart:399:31 - Statements in an if should be enclosed in a block. Try wrapping the statement in a block. - curly_braces_in_flow_control_structures
+   info - lib\ui\screens\snap_dashboard.dart:68:29 - Don't use 'BuildContext's across async gaps. Try rewriting the code to not use the 'BuildContext', or guard the use with a 'mounted' check. - use_build_context_synchronously
+   info - lib\ui\screens\snap_dashboard.dart:147:43 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\ui\screens\snap_dashboard.dart:164:46 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\ui\screens\snap_dashboard.dart:197:50 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\ui\screens\snap_dashboard.dart:319:37 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\ui\screens\snap_dashboard.dart:331:39 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\ui\screens\snap_dashboard.dart:339:36 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+   info - lib\ui\screens\snap_dashboard.dart:362:41 - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use
+
+14 issues found.

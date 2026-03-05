@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="quick_download"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_quick_download"
+        android:shortcutLongLabel="@string/shortcut_quick_download">
+        <intent
+            android:action="android.intent.action.SEND"
+            android:targetPackage="com.example.snap"
+            android:targetClass="com.example.snap.MainActivity">
+            <extra android:name="launch_mode" android:value="quick" />
+        </intent>
+        <capability-binding android:key="android.intent.action.SEND" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="open_snap"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/shortcut_open_snap"
+        android:shortcutLongLabel="@string/shortcut_open_snap">
+        <intent
+            android:action="android.intent.action.SEND"
+            android:targetPackage="com.example.snap"
+            android:targetClass="com.example.snap.MainActivity">
+            <extra android:name="launch_mode" android:value="normal" />
+        </intent>
+        <capability-binding android:key="android.intent.action.SEND" />
+    </shortcut>
+
+    <share-target android:targetClass="com.example.snap.MainActivity">
+        <data android:mimeType="text/plain" />
+        <category android:name="com.example.snap.QUICK_DOWNLOAD" />
+    </share-target>
+</shortcuts>

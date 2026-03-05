@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Snap</string>
+    <string name="shortcut_quick_download">Quick Download</string>
+    <string name="shortcut_open_snap">Open Snap</string>
+</resources>

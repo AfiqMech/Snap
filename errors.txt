@@ -1,0 +1,14 @@
+﻿Analyzing snap_dashboard.dart...
+
+  error - snap_dashboard.dart:214:37 - The name 'HistoryService' isn't a type, so it can't be used as a type argument. Try correcting the name to an existing type, or defining a type named 'HistoryService'. - non_type_as_type_argument
+  error - snap_dashboard.dart:217:45 - The property 'items' can't be unconditionally accessed because the receiver can be 'null'. Try making the access conditional (using '?.') or adding a null check to the target ('!'). - unchecked_use_of_nullable_value
+  error - snap_dashboard.dart:351:46 - The method '_buildToolCard' isn't defined for the type '_SnapDashboardState'. Try correcting the name to the name of an existing method, or defining a method named '_buildToolCard'. - undefined_method
+  error - snap_dashboard.dart:374:58 - The name 'VideoQuality' isn't a type, so it can't be used in an 'as' expression. Try changing the name to the name of an existing type, or creating a type with the name 'VideoQuality'. - cast_to_non_type
+  error - snap_dashboard.dart:385:46 - The method '_buildToolCard' isn't defined for the type '_SnapDashboardState'. Try correcting the name to the name of an existing method, or defining a method named '_buildToolCard'. - undefined_method
+warning - snap_dashboard.dart:13:8 - Unused import: '../../core/models/history_item.dart'. Try removing the import directive. - unused_import
+warning - snap_dashboard.dart:20:8 - Unused import: 'dashboard/toolkit_section.dart'. Try removing the import directive. - unused_import
+warning - snap_dashboard.dart:39:7 - The value of the field '_recentCarouselIndex' isn't used. Try removing the field, or using it. - unused_field
+warning - snap_dashboard.dart:40:21 - The value of the field '_expandedItemIds' isn't used. Try removing the field, or using it. - unused_field
+   info - snap_dashboard.dart:39:7 - The private field _recentCarouselIndex could be 'final'. Try making the field 'final'. - prefer_final_fields
+
+10 issues found.

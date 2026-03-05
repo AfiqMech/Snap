@@ -1,0 +1,2054 @@
+﻿> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+> Task :app:DebugMinSdkCheck
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :dynamic_color:preBuild UP-TO-DATE
+> Task :dynamic_color:preDebugBuild UP-TO-DATE
+> Task :dynamic_color:writeDebugAarMetadata UP-TO-DATE
+> Task :extractor:preBuild UP-TO-DATE
+> Task :extractor:preDebugBuild UP-TO-DATE
+> Task :extractor:writeDebugAarMetadata UP-TO-DATE
+> Task :file_picker:preBuild UP-TO-DATE
+> Task :file_picker:preDebugBuild UP-TO-DATE
+> Task :file_picker:writeDebugAarMetadata UP-TO-DATE
+> Task :flutter_image_compress_common:preBuild UP-TO-DATE
+> Task :flutter_image_compress_common:preDebugBuild UP-TO-DATE
+> Task :flutter_image_compress_common:writeDebugAarMetadata UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:preBuild UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:preDebugBuild UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:writeDebugAarMetadata UP-TO-DATE
+> Task :image_picker_android:preBuild UP-TO-DATE
+> Task :image_picker_android:preDebugBuild UP-TO-DATE
+> Task :image_picker_android:writeDebugAarMetadata UP-TO-DATE
+> Task :media_scanner:preBuild UP-TO-DATE
+> Task :media_scanner:preDebugBuild UP-TO-DATE
+> Task :media_scanner:writeDebugAarMetadata UP-TO-DATE
+> Task :open_filex:preBuild UP-TO-DATE
+> Task :open_filex:preDebugBuild UP-TO-DATE
+> Task :open_filex:writeDebugAarMetadata UP-TO-DATE
+> Task :path_provider_android:preBuild UP-TO-DATE
+> Task :path_provider_android:preDebugBuild UP-TO-DATE
+> Task :path_provider_android:writeDebugAarMetadata UP-TO-DATE
+> Task :permission_handler_android:preBuild UP-TO-DATE
+> Task :permission_handler_android:preDebugBuild UP-TO-DATE
+> Task :permission_handler_android:writeDebugAarMetadata UP-TO-DATE
+> Task :receive_sharing_intent:preBuild UP-TO-DATE
+> Task :receive_sharing_intent:preDebugBuild UP-TO-DATE
+> Task :receive_sharing_intent:writeDebugAarMetadata UP-TO-DATE
+> Task :share_plus:preBuild UP-TO-DATE
+> Task :share_plus:preDebugBuild UP-TO-DATE
+> Task :share_plus:writeDebugAarMetadata UP-TO-DATE
+> Task :shared_preferences_android:preBuild UP-TO-DATE
+> Task :shared_preferences_android:preDebugBuild UP-TO-DATE
+> Task :shared_preferences_android:writeDebugAarMetadata UP-TO-DATE
+> Task :sqflite_android:preBuild UP-TO-DATE
+> Task :sqflite_android:preDebugBuild UP-TO-DATE
+> Task :sqflite_android:writeDebugAarMetadata UP-TO-DATE
+> Task :url_launcher_android:preBuild UP-TO-DATE
+> Task :url_launcher_android:preDebugBuild UP-TO-DATE
+> Task :url_launcher_android:writeDebugAarMetadata UP-TO-DATE
+> Task :video_compress:preBuild UP-TO-DATE
+> Task :video_compress:preDebugBuild UP-TO-DATE
+> Task :video_compress:writeDebugAarMetadata UP-TO-DATE
+> Task :video_player_android:preBuild UP-TO-DATE
+> Task :video_player_android:preDebugBuild UP-TO-DATE
+> Task :video_player_android:writeDebugAarMetadata UP-TO-DATE
+> Task :webview_flutter_android:preBuild UP-TO-DATE
+> Task :webview_flutter_android:preDebugBuild UP-TO-DATE
+> Task :webview_flutter_android:writeDebugAarMetadata UP-TO-DATE
+> Task :app:checkDebugAarMetadata UP-TO-DATE
+> Task :app:cleanMergeDebugAssets
+> Task :app:compileFlutterBuildDebug
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders NO-SOURCE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :dynamic_color:mergeDebugShaders UP-TO-DATE
+> Task :dynamic_color:compileDebugShaders NO-SOURCE
+> Task :dynamic_color:generateDebugAssets UP-TO-DATE
+> Task :dynamic_color:mergeDebugAssets UP-TO-DATE
+> Task :extractor:mergeDebugShaders UP-TO-DATE
+> Task :extractor:compileDebugShaders NO-SOURCE
+> Task :extractor:generateDebugAssets UP-TO-DATE
+> Task :extractor:mergeDebugAssets UP-TO-DATE
+> Task :file_picker:mergeDebugShaders UP-TO-DATE
+> Task :file_picker:compileDebugShaders NO-SOURCE
+> Task :file_picker:generateDebugAssets UP-TO-DATE
+> Task :file_picker:mergeDebugAssets UP-TO-DATE
+> Task :flutter_image_compress_common:mergeDebugShaders UP-TO-DATE
+> Task :flutter_image_compress_common:compileDebugShaders NO-SOURCE
+> Task :flutter_image_compress_common:generateDebugAssets UP-TO-DATE
+> Task :flutter_image_compress_common:mergeDebugAssets UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:mergeDebugShaders UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:compileDebugShaders NO-SOURCE
+> Task :flutter_plugin_android_lifecycle:generateDebugAssets UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:mergeDebugAssets UP-TO-DATE
+> Task :image_picker_android:mergeDebugShaders UP-TO-DATE
+> Task :image_picker_android:compileDebugShaders NO-SOURCE
+> Task :image_picker_android:generateDebugAssets UP-TO-DATE
+> Task :image_picker_android:mergeDebugAssets UP-TO-DATE
+> Task :media_scanner:mergeDebugShaders UP-TO-DATE
+> Task :media_scanner:compileDebugShaders NO-SOURCE
+> Task :media_scanner:generateDebugAssets UP-TO-DATE
+> Task :media_scanner:mergeDebugAssets UP-TO-DATE
+> Task :open_filex:mergeDebugShaders UP-TO-DATE
+> Task :open_filex:compileDebugShaders NO-SOURCE
+> Task :open_filex:generateDebugAssets UP-TO-DATE
+> Task :open_filex:mergeDebugAssets UP-TO-DATE
+> Task :path_provider_android:mergeDebugShaders UP-TO-DATE
+> Task :path_provider_android:compileDebugShaders NO-SOURCE
+> Task :path_provider_android:generateDebugAssets UP-TO-DATE
+> Task :path_provider_android:mergeDebugAssets UP-TO-DATE
+> Task :permission_handler_android:mergeDebugShaders UP-TO-DATE
+> Task :permission_handler_android:compileDebugShaders NO-SOURCE
+> Task :permission_handler_android:generateDebugAssets UP-TO-DATE
+> Task :permission_handler_android:mergeDebugAssets UP-TO-DATE
+> Task :receive_sharing_intent:mergeDebugShaders UP-TO-DATE
+> Task :receive_sharing_intent:compileDebugShaders NO-SOURCE
+> Task :receive_sharing_intent:generateDebugAssets UP-TO-DATE
+> Task :receive_sharing_intent:mergeDebugAssets UP-TO-DATE
+> Task :share_plus:mergeDebugShaders UP-TO-DATE
+> Task :share_plus:compileDebugShaders NO-SOURCE
+> Task :share_plus:generateDebugAssets UP-TO-DATE
+> Task :share_plus:mergeDebugAssets UP-TO-DATE
+> Task :shared_preferences_android:mergeDebugShaders UP-TO-DATE
+> Task :shared_preferences_android:compileDebugShaders NO-SOURCE
+> Task :shared_preferences_android:generateDebugAssets UP-TO-DATE
+> Task :shared_preferences_android:mergeDebugAssets UP-TO-DATE
+> Task :sqflite_android:mergeDebugShaders UP-TO-DATE
+> Task :sqflite_android:compileDebugShaders NO-SOURCE
+> Task :sqflite_android:generateDebugAssets UP-TO-DATE
+> Task :sqflite_android:mergeDebugAssets UP-TO-DATE
+> Task :url_launcher_android:mergeDebugShaders UP-TO-DATE
+> Task :url_launcher_android:compileDebugShaders NO-SOURCE
+> Task :url_launcher_android:generateDebugAssets UP-TO-DATE
+> Task :url_launcher_android:mergeDebugAssets UP-TO-DATE
+> Task :video_compress:mergeDebugShaders UP-TO-DATE
+> Task :video_compress:compileDebugShaders NO-SOURCE
+> Task :video_compress:generateDebugAssets UP-TO-DATE
+> Task :video_compress:mergeDebugAssets UP-TO-DATE
+> Task :video_player_android:mergeDebugShaders UP-TO-DATE
+> Task :video_player_android:compileDebugShaders NO-SOURCE
+> Task :video_player_android:generateDebugAssets UP-TO-DATE
+> Task :video_player_android:mergeDebugAssets UP-TO-DATE
+> Task :webview_flutter_android:mergeDebugShaders UP-TO-DATE
+> Task :webview_flutter_android:compileDebugShaders NO-SOURCE
+> Task :webview_flutter_android:generateDebugAssets UP-TO-DATE
+> Task :webview_flutter_android:mergeDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets
+> Task :app:copyFlutterAssetsDebug
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :dynamic_color:generateDebugResValues UP-TO-DATE
+> Task :dynamic_color:generateDebugResources UP-TO-DATE
+> Task :dynamic_color:packageDebugResources UP-TO-DATE
+> Task :extractor:generateDebugResValues UP-TO-DATE
+> Task :extractor:generateDebugResources UP-TO-DATE
+> Task :extractor:packageDebugResources UP-TO-DATE
+> Task :file_picker:generateDebugResValues UP-TO-DATE
+> Task :file_picker:generateDebugResources UP-TO-DATE
+> Task :file_picker:packageDebugResources UP-TO-DATE
+> Task :flutter_image_compress_common:generateDebugResValues UP-TO-DATE
+> Task :flutter_image_compress_common:generateDebugResources UP-TO-DATE
+> Task :flutter_image_compress_common:packageDebugResources UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:generateDebugResValues UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:generateDebugResources UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:packageDebugResources UP-TO-DATE
+> Task :image_picker_android:generateDebugResValues UP-TO-DATE
+> Task :image_picker_android:generateDebugResources UP-TO-DATE
+> Task :image_picker_android:packageDebugResources UP-TO-DATE
+> Task :media_scanner:generateDebugResValues UP-TO-DATE
+> Task :media_scanner:generateDebugResources UP-TO-DATE
+> Task :media_scanner:packageDebugResources UP-TO-DATE
+> Task :open_filex:generateDebugResValues UP-TO-DATE
+> Task :open_filex:generateDebugResources UP-TO-DATE
+> Task :open_filex:packageDebugResources UP-TO-DATE
+> Task :path_provider_android:generateDebugResValues UP-TO-DATE
+> Task :path_provider_android:generateDebugResources UP-TO-DATE
+> Task :path_provider_android:packageDebugResources UP-TO-DATE
+> Task :permission_handler_android:generateDebugResValues UP-TO-DATE
+> Task :permission_handler_android:generateDebugResources UP-TO-DATE
+> Task :permission_handler_android:packageDebugResources UP-TO-DATE
+> Task :receive_sharing_intent:generateDebugResValues UP-TO-DATE
+> Task :receive_sharing_intent:generateDebugResources UP-TO-DATE
+> Task :receive_sharing_intent:packageDebugResources UP-TO-DATE
+> Task :share_plus:generateDebugResValues UP-TO-DATE
+> Task :share_plus:generateDebugResources UP-TO-DATE
+> Task :share_plus:packageDebugResources UP-TO-DATE
+> Task :shared_preferences_android:generateDebugResValues UP-TO-DATE
+> Task :shared_preferences_android:generateDebugResources UP-TO-DATE
+> Task :shared_preferences_android:packageDebugResources UP-TO-DATE
+> Task :sqflite_android:generateDebugResValues UP-TO-DATE
+> Task :sqflite_android:generateDebugResources UP-TO-DATE
+> Task :sqflite_android:packageDebugResources UP-TO-DATE
+> Task :url_launcher_android:generateDebugResValues UP-TO-DATE
+> Task :url_launcher_android:generateDebugResources UP-TO-DATE
+> Task :url_launcher_android:packageDebugResources UP-TO-DATE
+> Task :video_compress:generateDebugResValues UP-TO-DATE
+> Task :video_compress:generateDebugResources UP-TO-DATE
+> Task :video_compress:packageDebugResources UP-TO-DATE
+> Task :video_player_android:generateDebugResValues UP-TO-DATE
+> Task :video_player_android:generateDebugResources UP-TO-DATE
+> Task :video_player_android:packageDebugResources UP-TO-DATE
+> Task :webview_flutter_android:generateDebugResValues UP-TO-DATE
+> Task :webview_flutter_android:generateDebugResources UP-TO-DATE
+> Task :webview_flutter_android:packageDebugResources UP-TO-DATE
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:extractDeepLinksDebug UP-TO-DATE
+> Task :dynamic_color:extractDeepLinksDebug UP-TO-DATE
+> Task :dynamic_color:processDebugManifest UP-TO-DATE
+> Task :extractor:extractDeepLinksDebug UP-TO-DATE
+> Task :extractor:processDebugManifest UP-TO-DATE
+> Task :file_picker:extractDeepLinksDebug UP-TO-DATE
+> Task :file_picker:processDebugManifest UP-TO-DATE
+> Task :flutter_image_compress_common:extractDeepLinksDebug UP-TO-DATE
+> Task :flutter_image_compress_common:processDebugManifest UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:extractDeepLinksDebug UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:processDebugManifest UP-TO-DATE
+> Task :image_picker_android:extractDeepLinksDebug UP-TO-DATE
+> Task :image_picker_android:processDebugManifest UP-TO-DATE
+> Task :media_scanner:extractDeepLinksDebug UP-TO-DATE
+> Task :media_scanner:processDebugManifest UP-TO-DATE
+> Task :open_filex:extractDeepLinksDebug UP-TO-DATE
+> Task :open_filex:processDebugManifest UP-TO-DATE
+> Task :path_provider_android:extractDeepLinksDebug UP-TO-DATE
+> Task :path_provider_android:processDebugManifest UP-TO-DATE
+> Task :permission_handler_android:extractDeepLinksDebug UP-TO-DATE
+> Task :permission_handler_android:processDebugManifest UP-TO-DATE
+> Task :receive_sharing_intent:extractDeepLinksDebug UP-TO-DATE
+> Task :receive_sharing_intent:processDebugManifest UP-TO-DATE
+> Task :share_plus:extractDeepLinksDebug UP-TO-DATE
+> Task :share_plus:processDebugManifest UP-TO-DATE
+> Task :shared_preferences_android:extractDeepLinksDebug UP-TO-DATE
+> Task :shared_preferences_android:processDebugManifest UP-TO-DATE
+> Task :sqflite_android:extractDeepLinksDebug UP-TO-DATE
+> Task :sqflite_android:processDebugManifest UP-TO-DATE
+> Task :url_launcher_android:extractDeepLinksDebug UP-TO-DATE
+> Task :url_launcher_android:processDebugManifest UP-TO-DATE
+> Task :video_compress:extractDeepLinksDebug UP-TO-DATE
+> Task :video_compress:processDebugManifest UP-TO-DATE
+> Task :video_player_android:extractDeepLinksDebug UP-TO-DATE
+> Task :video_player_android:processDebugManifest UP-TO-DATE
+> Task :webview_flutter_android:extractDeepLinksDebug UP-TO-DATE
+> Task :webview_flutter_android:processDebugManifest UP-TO-DATE
+> Task :app:processDebugMainManifest UP-TO-DATE
+> Task :app:outputDebugAppLinkSettings UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifestForPackage UP-TO-DATE
+> Task :dynamic_color:compileDebugLibraryResources UP-TO-DATE
+> Task :dynamic_color:parseDebugLocalResources UP-TO-DATE
+> Task :dynamic_color:generateDebugRFile UP-TO-DATE
+> Task :extractor:compileDebugLibraryResources UP-TO-DATE
+> Task :extractor:parseDebugLocalResources UP-TO-DATE
+> Task :extractor:generateDebugRFile UP-TO-DATE
+> Task :file_picker:compileDebugLibraryResources UP-TO-DATE
+> Task :file_picker:parseDebugLocalResources UP-TO-DATE
+> Task :file_picker:generateDebugRFile UP-TO-DATE
+> Task :flutter_image_compress_common:compileDebugLibraryResources UP-TO-DATE
+> Task :flutter_image_compress_common:parseDebugLocalResources UP-TO-DATE
+> Task :flutter_image_compress_common:generateDebugRFile UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:compileDebugLibraryResources UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:parseDebugLocalResources UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:generateDebugRFile UP-TO-DATE
+> Task :image_picker_android:compileDebugLibraryResources UP-TO-DATE
+> Task :image_picker_android:parseDebugLocalResources UP-TO-DATE
+> Task :image_picker_android:generateDebugRFile UP-TO-DATE
+> Task :media_scanner:compileDebugLibraryResources UP-TO-DATE
+> Task :media_scanner:parseDebugLocalResources UP-TO-DATE
+> Task :media_scanner:generateDebugRFile UP-TO-DATE
+> Task :open_filex:compileDebugLibraryResources UP-TO-DATE
+> Task :open_filex:parseDebugLocalResources UP-TO-DATE
+> Task :open_filex:generateDebugRFile UP-TO-DATE
+> Task :path_provider_android:compileDebugLibraryResources UP-TO-DATE
+> Task :path_provider_android:parseDebugLocalResources UP-TO-DATE
+> Task :path_provider_android:generateDebugRFile UP-TO-DATE
+> Task :permission_handler_android:compileDebugLibraryResources UP-TO-DATE
+> Task :permission_handler_android:parseDebugLocalResources UP-TO-DATE
+> Task :permission_handler_android:generateDebugRFile UP-TO-DATE
+> Task :receive_sharing_intent:compileDebugLibraryResources UP-TO-DATE
+> Task :receive_sharing_intent:parseDebugLocalResources UP-TO-DATE
+> Task :receive_sharing_intent:generateDebugRFile UP-TO-DATE
+> Task :share_plus:compileDebugLibraryResources UP-TO-DATE
+> Task :share_plus:parseDebugLocalResources UP-TO-DATE
+> Task :share_plus:generateDebugRFile UP-TO-DATE
+> Task :shared_preferences_android:compileDebugLibraryResources UP-TO-DATE
+> Task :shared_preferences_android:parseDebugLocalResources UP-TO-DATE
+> Task :shared_preferences_android:generateDebugRFile UP-TO-DATE
+> Task :sqflite_android:compileDebugLibraryResources UP-TO-DATE
+> Task :sqflite_android:parseDebugLocalResources UP-TO-DATE
+> Task :sqflite_android:generateDebugRFile UP-TO-DATE
+> Task :url_launcher_android:compileDebugLibraryResources UP-TO-DATE
+> Task :url_launcher_android:parseDebugLocalResources UP-TO-DATE
+> Task :url_launcher_android:generateDebugRFile UP-TO-DATE
+> Task :video_compress:compileDebugLibraryResources UP-TO-DATE
+> Task :video_compress:parseDebugLocalResources UP-TO-DATE
+> Task :video_compress:generateDebugRFile UP-TO-DATE
+> Task :video_player_android:compileDebugLibraryResources UP-TO-DATE
+> Task :video_player_android:parseDebugLocalResources UP-TO-DATE
+> Task :video_player_android:generateDebugRFile UP-TO-DATE
+> Task :webview_flutter_android:compileDebugLibraryResources UP-TO-DATE
+> Task :webview_flutter_android:parseDebugLocalResources UP-TO-DATE
+> Task :webview_flutter_android:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :dynamic_color:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :dynamic_color:compileDebugKotlin UP-TO-DATE
+> Task :dynamic_color:javaPreCompileDebug UP-TO-DATE
+> Task :dynamic_color:compileDebugJavaWithJavac NO-SOURCE
+> Task :extractor:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :dynamic_color:bundleLibCompileToJarDebug
+> Task :extractor:compileDebugKotlin UP-TO-DATE
+> Task :extractor:javaPreCompileDebug UP-TO-DATE
+> Task :extractor:compileDebugJavaWithJavac NO-SOURCE
+> Task :file_picker:javaPreCompileDebug UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:javaPreCompileDebug UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:compileDebugJavaWithJavac UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :extractor:bundleLibCompileToJarDebug
+
+> Task :file_picker:compileDebugJavaWithJavac FAILED
+.\gradlew : C:\Users\afiqh\AppData\Local\Pub\Ca
+che\hosted\pub.dev\file_picker-8.1.3\android\sr
+c\main\java\com\mr\flutter\plugin\filepicker\Fi
+leInfo.java:3: error: package android.net does 
+not exist
+At line:1 char:1
++ .\gradlew assembleDebug 2>&1 | Out-File 
+-Encoding utf8 gradle_out_7.t ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (C 
+   :\Users\afiqh\... does not exist:String) [  
+  ], RemoteException
+    + FullyQualifiedErrorId : NativeCommandErr 
+   or
+ 
+import android.net.Uri;
+                  ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileInfo.java:
+11: error: cannot find symbol
+    final Uri uri;
+          ^
+  symbol:   class Uri
+  location: class FileInfo
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileInfo.java:
+15: error: cannot find symbol
+    public FileInfo(String path, String name, 
+Uri uri, long size, byte[] bytes) {
+                                              ^
+  symbol:   class Uri
+  location: class FileInfo
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileInfo.java:
+27: error: cannot find symbol
+        private Uri uri;
+                ^
+  symbol:   class Uri
+  location: class Builder
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileInfo.java:
+51: error: cannot find symbol
+        public Builder withUri(Uri uri){
+                               ^
+  symbol:   class Uri
+  location: class Builder
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:3: error: package android does not 
+exist
+import android.Manifest;
+              ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:4: error: package android.app does 
+not exist
+import android.app.Activity;
+                  ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:5: error: package android.content 
+does not exist
+import android.content.Intent;
+                      ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:6: error: package android.content.pm 
+does not exist
+import android.content.pm.PackageManager;
+                         ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:7: error: package android.net does 
+not exist
+import android.net.Uri;
+                  ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:8: error: package android.os does 
+not exist
+import android.os.Build;
+                 ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:9: error: package android.os does 
+not exist
+import android.os.Bundle;
+                 ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:10: error: package android.os does 
+not exist
+import android.os.Environment;
+                 ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:11: error: package android.os does 
+not exist
+import android.os.Handler;
+                 ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:12: error: package android.os does 
+not exist
+import android.os.Looper;
+                 ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:13: error: package android.os does 
+not exist
+import android.os.Message;
+                 ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:14: error: package android.os does 
+not exist
+import android.os.Parcelable;
+                 ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:15: error: package android.provider 
+does not exist
+import android.provider.DocumentsContract;
+                       ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:16: error: package android.util does 
+not exist
+import android.util.Log;
+                   ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:39: error: cannot find symbol
+    private final Activity activity;
+                  ^
+  symbol:   class Activity
+  location: class FilePickerDelegate
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:51: error: cannot find symbol
+    public FilePickerDelegate(final Activity 
+activity) {
+                                    ^
+  symbol:   class Activity
+  location: class FilePickerDelegate
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:76: error: cannot find symbol
+    FilePickerDelegate(final Activity 
+activity, final MethodChannel.Result result, 
+final PermissionManager permissionManager) {
+                             ^
+  symbol:   class Activity
+  location: class FilePickerDelegate
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:84: error: cannot find symbol
+    public boolean onActivityResult(final int 
+requestCode, final int resultCode, final 
+Intent data) {
+                                               
+                                        ^
+  symbol:   class Intent
+  location: class FilePickerDelegate
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:261: error: cannot find symbol
+    private ArrayList<Parcelable> 
+getSelectedItems(Bundle bundle){
+                                               
+    ^
+  symbol:   class Bundle
+  location: class FilePickerDelegate
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:261: error: cannot find symbol
+    private ArrayList<Parcelable> 
+getSelectedItems(Bundle bundle){
+                      ^
+  symbol:   class Parcelable
+  location: class FilePickerDelegate
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:3: error: package android.app does not 
+exist
+import android.app.Activity;
+                  ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:4: error: package android.app does not 
+exist
+import android.app.Application;
+                  ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:5: error: package android.os does not 
+exist
+import android.os.Bundle;
+                 ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:6: error: package android.os does not 
+exist
+import android.os.Handler;
+                 ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:7: error: package android.os does not 
+exist
+import android.os.Looper;
+                 ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:8: error: package android.util does 
+not exist
+import android.util.Log;
+                   ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:105: error: cannot find symbol
+    private Application application;
+            ^
+  symbol:   class Application
+  location: class FilePickerPlugin
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:38: error: package Application does 
+not exist
+            implements 
+Application.ActivityLifecycleCallbacks, 
+DefaultLifecycleObserver {
+                                  ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:111: error: cannot find symbol
+    private Activity activity;
+            ^
+  symbol:   class Activity
+  location: class FilePickerPlugin
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:235: error: cannot find symbol
+            final Application application,
+                  ^
+  symbol:   class Application
+  location: class FilePickerPlugin
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:236: error: cannot find symbol
+            final Activity activity,
+                  ^
+  symbol:   class Activity
+  location: class FilePickerPlugin
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:39: error: cannot find symbol
+        private final Activity thisActivity;
+                      ^
+  symbol:   class Activity
+  location: class 
+FilePickerPlugin.LifeCycleObserver
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:41: error: cannot find symbol
+        LifeCycleObserver(final Activity 
+activity) {
+                                ^
+  symbol:   class Activity
+  location: class 
+FilePickerPlugin.LifeCycleObserver
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:72: error: cannot find symbol
+        public void onActivityCreated(final 
+Activity activity, final Bundle 
+savedInstanceState) {
+                                            ^
+  symbol:   class Activity
+  location: class 
+FilePickerPlugin.LifeCycleObserver
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:72: error: cannot find symbol
+        public void onActivityCreated(final 
+Activity activity, final Bundle 
+savedInstanceState) {
+                                               
+                      ^
+  symbol:   class Bundle
+  location: class 
+FilePickerPlugin.LifeCycleObserver
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:76: error: cannot find symbol
+        public void onActivityStarted(final 
+Activity activity) {
+                                            ^
+  symbol:   class Activity
+  location: class 
+FilePickerPlugin.LifeCycleObserver
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:80: error: cannot find symbol
+        public void onActivityResumed(final 
+Activity activity) {
+                                            ^
+  symbol:   class Activity
+  location: class 
+FilePickerPlugin.LifeCycleObserver
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:84: error: cannot find symbol
+        public void onActivityPaused(final 
+Activity activity) {
+                                           ^
+  symbol:   class Activity
+  location: class 
+FilePickerPlugin.LifeCycleObserver
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:88: error: cannot find symbol
+        public void 
+onActivitySaveInstanceState(final Activity 
+activity, final Bundle outState) {
+                                               
+       ^
+  symbol:   class Activity
+  location: class 
+FilePickerPlugin.LifeCycleObserver
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:88: error: cannot find symbol
+        public void 
+onActivitySaveInstanceState(final Activity 
+activity, final Bundle outState) {
+                                               
+                                ^
+  symbol:   class Bundle
+  location: class 
+FilePickerPlugin.LifeCycleObserver
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:92: error: cannot find symbol
+        public void onActivityDestroyed(final 
+Activity activity) {
+                                              ^
+  symbol:   class Activity
+  location: class 
+FilePickerPlugin.LifeCycleObserver
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:99: error: cannot find symbol
+        public void onActivityStopped(final 
+Activity activity) {
+                                            ^
+  symbol:   class Activity
+  location: class 
+FilePickerPlugin.LifeCycleObserver
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerPlug
+in.java:190: error: cannot find symbol
+        private final Handler handler;
+                      ^
+  symbol:   class Handler
+  location: class MethodResultWrapper
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:3: error: package android.annotation does not 
+exist
+import android.annotation.SuppressLint;
+                         ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:4: error: package android.annotation does not 
+exist
+import android.annotation.TargetApi;
+                         ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:5: error: package android.content does not 
+exist
+import android.content.ContentUris;
+                      ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:6: error: package android.content does not 
+exist
+import android.content.Context;
+                      ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:7: error: package android.database does not 
+exist
+import android.database.Cursor;
+                       ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:8: error: package android.graphics does not 
+exist
+import android.graphics.Bitmap;
+                       ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:9: error: package android.graphics does not 
+exist
+import android.graphics.BitmapFactory;
+                       ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:10: error: package android.net does not exist
+import android.net.Uri;
+                  ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:11: error: package android.os does not exist
+import android.os.Build;
+                 ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:12: error: package android.os does not exist
+import android.os.Environment;
+                 ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:13: error: package android.os.storage does 
+not exist
+import android.os.storage.StorageManager;
+                         ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:14: error: package android.provider does not 
+exist
+import android.provider.DocumentsContract;
+                       ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:15: error: package android.provider does not 
+exist
+import android.provider.MediaStore;
+                       ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:16: error: package android.provider does not 
+exist
+import android.provider.OpenableColumns;
+                       ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:17: error: package android.util does not exist
+import android.util.Log;
+                   ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:18: error: package android.webkit does not 
+exist
+import android.webkit.MimeTypeMap;
+                     ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:65: error: cannot find symbol
+    public static String getFileName(Uri uri, 
+final Context context) {
+                                     ^
+  symbol:   class Uri
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:65: error: cannot find symbol
+    public static String getFileName(Uri uri, 
+final Context context) {
+                                               
+     ^
+  symbol:   class Context
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:95: error: cannot find symbol
+    public static Uri compressImage(Uri 
+originalImageUri, int compressionQuality, 
+Context context) {
+                                    ^
+  symbol:   class Uri
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:95: error: cannot find symbol
+    public static Uri compressImage(Uri 
+originalImageUri, int compressionQuality, 
+Context context) {
+                                               
+                                   ^
+  symbol:   class Context
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:95: error: cannot find symbol
+    public static Uri compressImage(Uri 
+originalImageUri, int compressionQuality, 
+Context context) {
+                  ^
+  symbol:   class Uri
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:123: error: cannot find symbol
+    public static String 
+getRealPathFromURI(final Context context, 
+final Uri uri) {
+                                               
+   ^
+  symbol:   class Context
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:123: error: cannot find symbol
+    public static String 
+getRealPathFromURI(final Context context, 
+final Uri uri) {
+                                               
+                          ^
+  symbol:   class Uri
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:189: error: cannot find symbol
+    public static String getDataColumn(Context 
+context, Uri uri, String selection,
+                                       ^
+  symbol:   class Context
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:189: error: cannot find symbol
+    public static String getDataColumn(Context 
+context, Uri uri, String selection,
+                                               
+         ^
+  symbol:   class Uri
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:217: error: cannot find symbol
+    public static boolean 
+isExternalStorageDocument(Uri uri) {
+                                               
+     ^
+  symbol:   class Uri
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:225: error: cannot find symbol
+    public static boolean 
+isDownloadsDocument(Uri uri) {
+                                              ^
+  symbol:   class Uri
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:233: error: cannot find symbol
+    public static boolean isMediaDocument(Uri 
+uri) {
+                                          ^
+  symbol:   class Uri
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:241: error: cannot find symbol
+    public static boolean 
+isGooglePhotosUri(Uri uri) {
+                                            ^
+  symbol:   class Uri
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:255: error: cannot find symbol
+    public static boolean clearCache(final 
+Context context) {
+                                           ^
+  symbol:   class Context
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:287: error: cannot find symbol
+    public static FileInfo 
+openFileStream(final Context context, final 
+Uri uri, boolean withData) {
+                                               
+ ^
+  symbol:   class Context
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:287: error: cannot find symbol
+    public static FileInfo 
+openFileStream(final Context context, final 
+Uri uri, boolean withData) {
+                                               
+                        ^
+  symbol:   class Uri
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:346: error: cannot find symbol
+    public static String 
+getFullPathFromTreeUri(@Nullable final Uri 
+treeUri, Context con) {
+                                               
+                 ^
+  symbol:   class Uri
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:346: error: cannot find symbol
+    public static String 
+getFullPathFromTreeUri(@Nullable final Uri 
+treeUri, Context con) {
+                                               
+                              ^
+  symbol:   class Context
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:415: error: cannot find symbol
+    private static String getVolumePath(final 
+String volumeId, Context context) {
+                                               
+                ^
+  symbol:   class Context
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:452: error: cannot find symbol
+    private static String 
+getVolumeIdFromTreeUri(final Uri treeUri) {
+                                               
+        ^
+  symbol:   class Uri
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:461: error: cannot find symbol
+    private static String 
+getDocumentPathFromTreeUri(final Uri treeUri) {
+                                               
+            ^
+  symbol:   class Uri
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:334: error: package Build does not 
+exist
+    @RequiresApi(api = 
+Build.VERSION_CODES.KITKAT)
+                            ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:343: error: package Build does not exist
+    @RequiresApi(api = 
+Build.VERSION_CODES.KITKAT)
+                            ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:414: error: cannot find symbol
+    @SuppressLint("ObsoleteSdkInt")
+     ^
+  symbol:   class SuppressLint
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:451: error: cannot find symbol
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+     ^
+  symbol:   class TargetApi
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:451: error: package Build does not exist
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+                    ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:460: error: cannot find symbol
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+     ^
+  symbol:   class TargetApi
+  location: class FileUtils
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FileUtils.java
+:460: error: package Build does not exist
+    @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+                    ^
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:59: error: cannot find symbol
+                                == 
+PackageManager.PERMISSION_GRANTED;
+                                   ^
+  symbol: variable PackageManager
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:87: error: cannot find symbol
+            if (resultCode == 
+Activity.RESULT_OK) {
+                              ^
+  symbol:   variable Activity
+  location: class FilePickerDelegate
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:92: error: cannot find symbol
+                final Uri uri = data.getData();
+                      ^
+  symbol:   class Uri
+  location: class FilePickerDelegate
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:94: error: cannot find symbol
+                  String  path = Environment.ge
+tExternalStoragePublicDirectory(Environment.DIR
+ECTORY_DOWNLOADS)
+                                               
+                                ^
+  symbol:   variable Environment
+  location: class FilePickerDelegate
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:94: error: cannot find symbol
+                  String  path = Environment.ge
+tExternalStoragePublicDirectory(Environment.DIR
+ECTORY_DOWNLOADS)
+                                 ^
+  symbol:   variable Environment
+  location: class FilePickerDelegate
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:106: error: cannot find symbol
+                        Log.i(TAG, "Error 
+while saving file", e);
+                        ^
+  symbol:   variable Log
+  location: class FilePickerDelegate
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:112: error: cannot find symbol
+            if (resultCode == 
+Activity.RESULT_CANCELED) {
+                              ^
+  symbol:   variable Activity
+  location: class FilePickerDelegate
+C:\Users\afiqh\AppData\Local\Pub\Cache\hosted\p
+ub.dev\file_picker-8.1.3\android\src\main\java\
+com\mr\flutter\plugin\filepicker\FilePickerDele
+gate.java:113: error: cannot find symbol
+                Log.i(TAG, "User cancelled the 
+save request");
+                ^
+  symbol:   variable Log
+  location: class FilePickerDelegate
+100 errors
+
+[Incubating] Problems report is available at: file:///D:/Snap/build/reports/problems/problems-report.html
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task 
+':file_picker:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler output 
+below.
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileInfo.jav
+a:11: error: cannot find symbol
+      final Uri uri;
+            ^
+    symbol:   class Uri
+    location: class FileInfo
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileInfo.jav
+a:15: error: cannot find symbol
+      public FileInfo(String path, String 
+name, Uri uri, long size, byte[] bytes) {
+                                               
+ ^
+    symbol:   class Uri
+    location: class FileInfo
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileInfo.jav
+a:27: error: cannot find symbol
+          private Uri uri;
+                  ^
+    symbol:   class Uri
+    location: class Builder
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileInfo.jav
+a:51: error: cannot find symbol
+          public Builder withUri(Uri uri){
+                                 ^
+    symbol:   class Uri
+    location: class Builder
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:39: error: cannot find symbol
+      private final Activity activity;
+                    ^
+    symbol:   class Activity
+    location: class FilePickerDelegate
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:51: error: cannot find symbol
+      public FilePickerDelegate(final Activity 
+activity) {
+                                      ^
+    symbol:   class Activity
+    location: class FilePickerDelegate
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:76: error: cannot find symbol
+      FilePickerDelegate(final Activity 
+activity, final MethodChannel.Result result, 
+final PermissionManager permissionManager) {
+                               ^
+    symbol:   class Activity
+    location: class FilePickerDelegate
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:84: error: cannot find symbol
+      public boolean onActivityResult(final 
+int requestCode, final int resultCode, final 
+Intent data) {
+                                               
+                                          ^
+    symbol:   class Intent
+    location: class FilePickerDelegate
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:261: error: cannot find symbol
+      private ArrayList<Parcelable> 
+getSelectedItems(Bundle bundle){
+                                               
+      ^
+    symbol:   class Bundle
+    location: class FilePickerDelegate
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:261: error: cannot find symbol
+      private ArrayList<Parcelable> 
+getSelectedItems(Bundle bundle){
+                        ^
+    symbol:   class Parcelable
+    location: class FilePickerDelegate
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:105: error: cannot find symbol
+      private Application application;
+              ^
+    symbol:   class Application
+    location: class FilePickerPlugin
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:111: error: cannot find symbol
+      private Activity activity;
+              ^
+    symbol:   class Activity
+    location: class FilePickerPlugin
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:235: error: cannot find symbol
+              final Application application,
+                    ^
+    symbol:   class Application
+    location: class FilePickerPlugin
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:236: error: cannot find symbol
+              final Activity activity,
+                    ^
+    symbol:   class Activity
+    location: class FilePickerPlugin
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:39: error: cannot find symbol
+          private final Activity thisActivity;
+                        ^
+    symbol:   class Activity
+    location: class 
+FilePickerPlugin.LifeCycleObserver
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:41: error: cannot find symbol
+          LifeCycleObserver(final Activity 
+activity) {
+                                  ^
+    symbol:   class Activity
+    location: class 
+FilePickerPlugin.LifeCycleObserver
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:72: error: cannot find symbol
+          public void onActivityCreated(final 
+Activity activity, final Bundle 
+savedInstanceState) {
+                                              ^
+    symbol:   class Activity
+    location: class 
+FilePickerPlugin.LifeCycleObserver
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:72: error: cannot find symbol
+          public void onActivityCreated(final 
+Activity activity, final Bundle 
+savedInstanceState) {
+                                               
+                        ^
+    symbol:   class Bundle
+    location: class 
+FilePickerPlugin.LifeCycleObserver
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:76: error: cannot find symbol
+          public void onActivityStarted(final 
+Activity activity) {
+                                              ^
+    symbol:   class Activity
+    location: class 
+FilePickerPlugin.LifeCycleObserver
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:80: error: cannot find symbol
+          public void onActivityResumed(final 
+Activity activity) {
+                                              ^
+    symbol:   class Activity
+    location: class 
+FilePickerPlugin.LifeCycleObserver
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:84: error: cannot find symbol
+          public void onActivityPaused(final 
+Activity activity) {
+                                             ^
+    symbol:   class Activity
+    location: class 
+FilePickerPlugin.LifeCycleObserver
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:88: error: cannot find symbol
+          public void 
+onActivitySaveInstanceState(final Activity 
+activity, final Bundle outState) {
+                                               
+         ^
+    symbol:   class Activity
+    location: class 
+FilePickerPlugin.LifeCycleObserver
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:88: error: cannot find symbol
+          public void 
+onActivitySaveInstanceState(final Activity 
+activity, final Bundle outState) {
+                                               
+                                  ^
+    symbol:   class Bundle
+    location: class 
+FilePickerPlugin.LifeCycleObserver
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:92: error: cannot find symbol
+          public void 
+onActivityDestroyed(final Activity activity) {
+                                               
+ ^
+    symbol:   class Activity
+    location: class 
+FilePickerPlugin.LifeCycleObserver
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:99: error: cannot find symbol
+          public void onActivityStopped(final 
+Activity activity) {
+                                              ^
+    symbol:   class Activity
+    location: class 
+FilePickerPlugin.LifeCycleObserver
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:190: error: cannot find symbol
+          private final Handler handler;
+                        ^
+    symbol:   class Handler
+    location: class MethodResultWrapper
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:65: error: cannot find symbol
+      public static String getFileName(Uri 
+uri, final Context context) {
+                                       ^
+    symbol:   class Uri
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:65: error: cannot find symbol
+      public static String getFileName(Uri 
+uri, final Context context) {
+                                               
+       ^
+    symbol:   class Context
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:95: error: cannot find symbol
+      public static Uri compressImage(Uri 
+originalImageUri, int compressionQuality, 
+Context context) {
+                                      ^
+    symbol:   class Uri
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:95: error: cannot find symbol
+      public static Uri compressImage(Uri 
+originalImageUri, int compressionQuality, 
+Context context) {
+                                               
+                                     ^
+    symbol:   class Context
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:95: error: cannot find symbol
+      public static Uri compressImage(Uri 
+originalImageUri, int compressionQuality, 
+Context context) {
+                    ^
+    symbol:   class Uri
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:123: error: cannot find symbol
+      public static String 
+getRealPathFromURI(final Context context, 
+final Uri uri) {
+                                               
+     ^
+    symbol:   class Context
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:123: error: cannot find symbol
+      public static String 
+getRealPathFromURI(final Context context, 
+final Uri uri) {
+                                               
+                            ^
+    symbol:   class Uri
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:189: error: cannot find symbol
+      public static String 
+getDataColumn(Context context, Uri uri, String 
+selection,
+                                         ^
+    symbol:   class Context
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:189: error: cannot find symbol
+      public static String 
+getDataColumn(Context context, Uri uri, String 
+selection,
+                                               
+           ^
+    symbol:   class Uri
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:217: error: cannot find symbol
+      public static boolean 
+isExternalStorageDocument(Uri uri) {
+                                               
+       ^
+    symbol:   class Uri
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:225: error: cannot find symbol
+      public static boolean 
+isDownloadsDocument(Uri uri) {
+                                               
+ ^
+    symbol:   class Uri
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:233: error: cannot find symbol
+      public static boolean 
+isMediaDocument(Uri uri) {
+                                            ^
+    symbol:   class Uri
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:241: error: cannot find symbol
+      public static boolean 
+isGooglePhotosUri(Uri uri) {
+                                              ^
+    symbol:   class Uri
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:255: error: cannot find symbol
+      public static boolean clearCache(final 
+Context context) {
+                                             ^
+    symbol:   class Context
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:287: error: cannot find symbol
+      public static FileInfo 
+openFileStream(final Context context, final 
+Uri uri, boolean withData) {
+                                               
+   ^
+    symbol:   class Context
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:287: error: cannot find symbol
+      public static FileInfo 
+openFileStream(final Context context, final 
+Uri uri, boolean withData) {
+                                               
+                          ^
+    symbol:   class Uri
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:346: error: cannot find symbol
+      public static String 
+getFullPathFromTreeUri(@Nullable final Uri 
+treeUri, Context con) {
+                                               
+                   ^
+    symbol:   class Uri
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:346: error: cannot find symbol
+      public static String 
+getFullPathFromTreeUri(@Nullable final Uri 
+treeUri, Context con) {
+                                               
+                                ^
+    symbol:   class Context
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:415: error: cannot find symbol
+      private static String 
+getVolumePath(final String volumeId, Context 
+context) {
+                                               
+                  ^
+    symbol:   class Context
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:452: error: cannot find symbol
+      private static String 
+getVolumeIdFromTreeUri(final Uri treeUri) {
+                                               
+          ^
+    symbol:   class Uri
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:461: error: cannot find symbol
+      private static String 
+getDocumentPathFromTreeUri(final Uri treeUri) {
+                                               
+              ^
+    symbol:   class Uri
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:414: error: cannot find symbol
+      @SuppressLint("ObsoleteSdkInt")
+       ^
+    symbol:   class SuppressLint
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:451: error: cannot find symbol
+      @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+       ^
+    symbol:   class TargetApi
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:460: error: cannot find symbol
+      @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+       ^
+    symbol:   class TargetApi
+    location: class FileUtils
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:87: error: cannot find symbol
+              if (resultCode == 
+Activity.RESULT_OK) {
+                                ^
+    symbol:   variable Activity
+    location: class FilePickerDelegate
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:92: error: cannot find symbol
+                  final Uri uri = 
+data.getData();
+                        ^
+    symbol:   class Uri
+    location: class FilePickerDelegate
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:94: error: cannot find symbol
+                    String  path = Environment.
+getExternalStoragePublicDirectory(Environment.D
+IRECTORY_DOWNLOADS)
+                                               
+                                  ^
+    symbol:   variable Environment
+    location: class FilePickerDelegate
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:94: error: cannot find symbol
+                    String  path = Environment.
+getExternalStoragePublicDirectory(Environment.D
+IRECTORY_DOWNLOADS)
+                                   ^
+    symbol:   variable Environment
+    location: class FilePickerDelegate
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:106: error: cannot find symbol
+                          Log.i(TAG, "Error 
+while saving file", e);
+                          ^
+    symbol:   variable Log
+    location: class FilePickerDelegate
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:112: error: cannot find symbol
+              if (resultCode == 
+Activity.RESULT_CANCELED) {
+                                ^
+    symbol:   variable Activity
+    location: class FilePickerDelegate
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:113: error: cannot find symbol
+                  Log.i(TAG, "User cancelled 
+the save request");
+                  ^
+    symbol:   variable Log
+    location: class FilePickerDelegate
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:59: error: cannot find symbol
+                                  == 
+PackageManager.PERMISSION_GRANTED;
+                                     ^
+    symbol: variable PackageManager
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileInfo.jav
+a:3: error: package android.net does not exist
+  import android.net.Uri;
+                    ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:3: error: package android does not 
+exist
+  import android.Manifest;
+                ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:4: error: package android.app does 
+not exist
+  import android.app.Activity;
+                    ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:5: error: package android.content 
+does not exist
+  import android.content.Intent;
+                        ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:6: error: package 
+android.content.pm does not exist
+  import android.content.pm.PackageManager;
+                           ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:7: error: package android.net does 
+not exist
+  import android.net.Uri;
+                    ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:8: error: package android.os does 
+not exist
+  import android.os.Build;
+                   ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:9: error: package android.os does 
+not exist
+  import android.os.Bundle;
+                   ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:10: error: package android.os does 
+not exist
+  import android.os.Environment;
+                   ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:11: error: package android.os does 
+not exist
+  import android.os.Handler;
+                   ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:12: error: package android.os does 
+not exist
+  import android.os.Looper;
+                   ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:13: error: package android.os does 
+not exist
+  import android.os.Message;
+                   ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:14: error: package android.os does 
+not exist
+  import android.os.Parcelable;
+                   ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:15: error: package 
+android.provider does not exist
+  import android.provider.DocumentsContract;
+                         ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:16: error: package android.util 
+does not exist
+  import android.util.Log;
+                     ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:3: error: package android.app does 
+not exist
+  import android.app.Activity;
+                    ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:4: error: package android.app does 
+not exist
+  import android.app.Application;
+                    ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:5: error: package android.os does 
+not exist
+  import android.os.Bundle;
+                   ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:6: error: package android.os does 
+not exist
+  import android.os.Handler;
+                   ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:7: error: package android.os does 
+not exist
+  import android.os.Looper;
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+233 actionable tasks: 8 executed, 225 up-to-date
+                   ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:8: error: package android.util does 
+not exist
+  import android.util.Log;
+                     ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerPl
+ugin.java:38: error: package Application does 
+not exist
+              implements 
+Application.ActivityLifecycleCallbacks, 
+DefaultLifecycleObserver {
+                                    ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:3: error: package android.annotation does 
+not exist
+  import android.annotation.SuppressLint;
+                           ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:4: error: package android.annotation does 
+not exist
+  import android.annotation.TargetApi;
+                           ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:5: error: package android.content does not 
+exist
+  import android.content.ContentUris;
+                        ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:6: error: package android.content does not 
+exist
+  import android.content.Context;
+                        ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:7: error: package android.database does not 
+exist
+  import android.database.Cursor;
+                         ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:8: error: package android.graphics does not 
+exist
+  import android.graphics.Bitmap;
+                         ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:9: error: package android.graphics does not 
+exist
+  import android.graphics.BitmapFactory;
+                         ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:10: error: package android.net does not 
+exist
+  import android.net.Uri;
+                    ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:11: error: package android.os does not exist
+  import android.os.Build;
+                   ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:12: error: package android.os does not exist
+  import android.os.Environment;
+                   ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:13: error: package android.os.storage does 
+not exist
+  import android.os.storage.StorageManager;
+                           ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:14: error: package android.provider does 
+not exist
+  import android.provider.DocumentsContract;
+                         ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:15: error: package android.provider does 
+not exist
+  import android.provider.MediaStore;
+                         ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:16: error: package android.provider does 
+not exist
+  import android.provider.OpenableColumns;
+                         ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:17: error: package android.util does not 
+exist
+  import android.util.Log;
+                     ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:18: error: package android.webkit does not 
+exist
+  import android.webkit.MimeTypeMap;
+                       ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FilePickerDe
+legate.java:334: error: package Build does not 
+exist
+      @RequiresApi(api = 
+Build.VERSION_CODES.KITKAT)
+                              ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:343: error: package Build does not exist
+      @RequiresApi(api = 
+Build.VERSION_CODES.KITKAT)
+                              ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:451: error: package Build does not exist
+      @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+                      ^
+  C:\Users\afiqh\AppData\Local\Pub\Cache\hosted
+\pub.dev\file_picker-8.1.3\android\src\main\jav
+a\com\mr\flutter\plugin\filepicker\FileUtils.ja
+va:460: error: package Build does not exist
+      @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+                      ^
+  100 errors
+
+* Try:
+> Check your code and dependencies to fix the 
+compilation error(s)
+> Run with --scan to get full insights.
+
+BUILD FAILED in 18s

@@ -1,0 +1,4 @@
+﻿Analyzing Snap...                                               
+
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\ui\screens\snap_dashboard.dart:698:21 - deprecated_member_use
+

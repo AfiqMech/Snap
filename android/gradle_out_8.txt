@@ -1,0 +1,224 @@
+﻿> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+> Task :app:DebugMinSdkCheck
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :dynamic_color:preBuild UP-TO-DATE
+> Task :dynamic_color:preDebugBuild UP-TO-DATE
+> Task :dynamic_color:writeDebugAarMetadata UP-TO-DATE
+> Task :extractor:preBuild UP-TO-DATE
+> Task :extractor:preDebugBuild UP-TO-DATE
+> Task :extractor:writeDebugAarMetadata UP-TO-DATE
+> Task :file_picker:preBuild UP-TO-DATE
+> Task :file_picker:preDebugBuild UP-TO-DATE
+> Task :file_picker:writeDebugAarMetadata UP-TO-DATE
+> Task :flutter_image_compress_common:preBuild UP-TO-DATE
+> Task :flutter_image_compress_common:preDebugBuild UP-TO-DATE
+> Task :flutter_image_compress_common:writeDebugAarMetadata UP-TO-DATE
+> Task :flutter_local_notifications:preBuild UP-TO-DATE
+> Task :flutter_local_notifications:preDebugBuild UP-TO-DATE
+> Task :flutter_local_notifications:writeDebugAarMetadata UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:preBuild UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:preDebugBuild UP-TO-DATE
+> Task :flutter_plugin_android_lifecycle:writeDebugAarMetadata UP-TO-DATE
+> Task :image_picker_android:preBuild UP-TO-DATE
+> Task :image_picker_android:preDebugBuild UP-TO-DATE
+> Task :image_picker_android:writeDebugAarMetadata UP-TO-DATE
+> Task :media_scanner:preBuild UP-TO-DATE
+> Task :media_scanner:preDebugBuild UP-TO-DATE
+> Task :media_scanner:writeDebugAarMetadata UP-TO-DATE
+> Task :open_filex:preBuild UP-TO-DATE
+> Task :open_filex:preDebugBuild UP-TO-DATE
+> Task :open_filex:writeDebugAarMetadata UP-TO-DATE
+> Task :path_provider_android:preBuild UP-TO-DATE
+> Task :path_provider_android:preDebugBuild UP-TO-DATE
+> Task :path_provider_android:writeDebugAarMetadata UP-TO-DATE
+> Task :permission_handler_android:preBuild UP-TO-DATE
+> Task :permission_handler_android:preDebugBuild UP-TO-DATE
+> Task :permission_handler_android:writeDebugAarMetadata UP-TO-DATE
+> Task :receive_sharing_intent:preBuild UP-TO-DATE
+> Task :receive_sharing_intent:preDebugBuild UP-TO-DATE
+> Task :receive_sharing_intent:writeDebugAarMetadata UP-TO-DATE
+> Task :share_plus:preBuild UP-TO-DATE
+> Task :share_plus:preDebugBuild UP-TO-DATE
+> Task :share_plus:writeDebugAarMetadata UP-TO-DATE
+> Task :shared_preferences_android:preBuild UP-TO-DATE
+> Task :shared_preferences_android:preDebugBuild UP-TO-DATE
+> Task :shared_preferences_android:writeDebugAarMetadata UP-TO-DATE
+> Task :sqflite_android:preBuild UP-TO-DATE
+> Task :sqflite_android:preDebugBuild UP-TO-DATE
+> Task :sqflite_android:writeDebugAarMetadata UP-TO-DATE
+> Task :url_launcher_android:preBuild UP-TO-DATE
+> Task :url_launcher_android:preDebugBuild UP-TO-DATE
+> Task :url_launcher_android:writeDebugAarMetadata UP-TO-DATE
+> Task :video_compress:preBuild UP-TO-DATE
+> Task :video_compress:preDebugBuild UP-TO-DATE
+> Task :video_compress:writeDebugAarMetadata UP-TO-DATE
+> Task :video_player_android:preBuild UP-TO-DATE
+> Task :video_player_android:preDebugBuild UP-TO-DATE
+> Task :video_player_android:writeDebugAarMetadata UP-TO-DATE
+> Task :webview_flutter_android:preBuild UP-TO-DATE
+> Task :webview_flutter_android:preDebugBuild UP-TO-DATE
+> Task :webview_flutter_android:writeDebugAarMetadata UP-TO-DATE
+> Task :app:cleanMergeDebugAssets UP-TO-DATE
+> Task :app:checkDebugAarMetadata FAILED
+
+> Task :app:compileFlutterBuildDebug
+.\gradlew : 
+lib/ui/screens/snap_dashboard.dart:329:49: 
+Error: The method 'compressLocalVideo' 
+isn't defined for the type 'SnapViewModel'.
+At line:1 char:1
++ .\gradlew assembleDebug 2>&1 | Out-File 
+-Encoding utf8 gradle_out_8.t ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified 
+   : (lib/ui/screens/...SnapViewModel'.:S  
+  tring) [], RemoteException
+    + FullyQualifiedErrorId : NativeComman 
+   dError
+ 
+ - 'SnapViewModel' is from 'package:snap/ui
+/viewmodel/snap_view_model.dart' 
+('lib/ui/viewmodel/snap_view_model.dart').
+Try correcting the name to the name of an 
+existing method, or defining a method 
+named 'compressLocalVideo'.
+                                      
+viewModel.compressLocalVideo(
+                                           
+     ^^^^^^^^^^^^^^^^^^
+lib/ui/screens/snap_dashboard.dart:361:49: 
+Error: The method 'compressLocalImages' 
+isn't defined for the type 'SnapViewModel'.
+ - 'SnapViewModel' is from 'package:snap/ui
+/viewmodel/snap_view_model.dart' 
+('lib/ui/viewmodel/snap_view_model.dart').
+Try correcting the name to the name of an 
+existing method, or defining a method 
+named 'compressLocalImages'.
+                                      
+viewModel.compressLocalImages(
+                                           
+     ^^^^^^^^^^^^^^^^^^^
+lib/ui/viewmodel/snap_view_model.dart:146:7
+4: Error: The getter 'speed' isn't defined 
+for the type 'Downloading'.
+ - 'Downloading' is from 'package:snap/feat
+ures/extraction/extraction_progress.dart' (
+'lib/features/extraction/extraction_progres
+s.dart').
+Try correcting the name to the name of an 
+existing getter, or defining a getter or 
+field named 'speed'.
+                  
+"${progress.progress.toStringAsFixed(1)}% 
+- ${progress.speed}",
+                                           
+                              ^^^^^
+lib/ui/viewmodel/snap_view_model.dart:194:2
+1: Error: The getter 'HistoryItemType' 
+isn't defined for the type 'SnapViewModel'.
+ - 'SnapViewModel' is from 'package:snap/ui
+/viewmodel/snap_view_model.dart' 
+('lib/ui/viewmodel/snap_view_model.dart').
+Try correcting the name to the name of an 
+existing getter, or defining a getter or 
+field named 'HistoryItemType'.
+                  ? HistoryItemType.photo
+                    ^^^^^^^^^^^^^^^
+lib/ui/viewmodel/snap_view_model.dart:195:2
+1: Error: The getter 'HistoryItemType' 
+isn't defined for the type 'SnapViewModel'.
+ - 'SnapViewModel' is from 'package:snap/ui
+/viewmodel/snap_view_model.dart' 
+('lib/ui/viewmodel/snap_view_model.dart').
+Try correcting the name to the name of an 
+existing getter, or defining a getter or 
+field named 'HistoryItemType'.
+                  : HistoryItemType.video,
+                    ^^^^^^^^^^^^^^^
+lib/ui/viewmodel/snap_view_model.dart:198:4
+6: Error: The argument type 
+'List<String>?' can't be assigned to the 
+parameter type 'List<String>'.
+ - 'List' is from 'dart:core'.
+              galleryPaths: 
+metadata.isPhoto ? [path] : null,
+                                           
+  ^
+Target kernel_snapshot_program failed: 
+Exception
+
+
+> Task :app:compileFlutterBuildDebug FAILED
+
+[Incubating] Problems report is available at: file:///D:/Snap/build/reports/problems/problems-report.html
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task 
+':app:checkDebugAarMetadata'.
+> A failure occurred while executing com.an
+droid.build.gradle.internal.tasks.CheckAarM
+etadataWorkAction
+   > An issue was found when checking AAR 
+metadata:
+     
+       1.  Dependency 
+':flutter_local_notifications' requires 
+core library desugaring to be enabled
+           for :app.
+     
+           See https://developer.android.co
+m/studio/write/java8-support.html for more
+           details.
+
+* Try:
+> Run with --stacktrace option to get the 
+stack trace.
+> Run with --info or --debug option to get 
+more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+===========================================
+===================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task 
+':app:compileFlutterBuildDebug'.
+> Process 'command 
+'C:\src\flutter\bin\flutter.bat'' finished 
+with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the 
+stack trace.
+> Run with --info or --debug option to get 
+more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+===========================================
+===================================
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 7s
+27 actionable tasks: 3 executed, 24 up-to-date

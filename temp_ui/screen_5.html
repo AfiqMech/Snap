@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Snap Refined Settings</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          "primary": "#007AFF",
+          "background": "#F8F9FA",
+          "surface": "#FFFFFF",
+          "surface-border": "#E2E8F0",
+          "text-primary": "#0F172A",
+          "text-secondary": "#64748B",
+          "card-blue": "#EFF6FF",
+          "card-orange": "#FFF7ED",
+          "card-green": "#F0FDF4"
+        },
+        fontFamily: {
+          "display": ["Inter", "sans-serif"]
+        },
+        borderRadius: {
+          "DEFAULT": "0.5rem",
+          "lg": "0.75rem",
+          "xl": "1rem",
+          "full": "9999px"
+        },
+      },
+    },
+  }
+</script>
+<style>
+  body {
+    background-image: radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.04) 1px, transparent 0);
+    background-size: 20px 20px;
+    min-height: max(884px, 100dvh);
+  }
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 32px;
+  }
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #E2E8F0;
+    transition: .3s ease-in-out;
+    border-radius: 28px;
+    border: 1px solid #CBD5E1;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .3s ease-in-out;
+    border-radius: 28px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+  }
+  input:checked + .slider {
+    background-color: #007AFF;
+    border-color: #007AFF;
+  }
+  input:checked + .slider:before {
+    transform: translateX(20px);
+  }
+</style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background font-display min-h-screen text-text-primary flex flex-col overflow-x-hidden relative pb-12">
+<header class="flex items-center p-4 sticky top-0 z-10 bg-background/80 backdrop-blur-xl pt-14 pb-6">
+<button class="flex items-center justify-center hover:bg-slate-200/50 p-2 rounded-[28px] transition-colors mr-3 -ml-2 text-text-primary">
+<span class="material-symbols-outlined text-[28px]">arrow_back</span>
+</button>
+<h1 class="text-[32px] font-bold tracking-tight">Settings</h1>
+</header>
+<main class="flex-1 px-4 pb-8 space-y-10 max-w-md mx-auto w-full mt-2">
+<section>
+<h2 class="text-xs font-bold text-primary mb-3 uppercase tracking-widest pl-3">Theme</h2>
+<div class="bg-surface border border-slate-200 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] rounded-[28px] overflow-hidden">
+<div class="p-4 border-b border-surface-border flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<span class="font-semibold text-[17px]">Theme Mode</span>
+<div class="flex bg-slate-100 p-1.5 rounded-[28px] w-full sm:w-[240px]">
+<button class="flex-1 py-2 px-3 text-[14px] font-bold bg-blue-100 shadow-sm rounded-[28px] text-primary border border-blue-200 transition-all">Auto</button>
+<button class="flex-1 py-2 px-3 text-[14px] font-medium text-text-secondary rounded-[28px] hover:text-text-primary hover:bg-slate-200/50 transition-all">Light</button>
+<button class="flex-1 py-2 px-3 text-[14px] font-medium text-text-secondary rounded-[28px] hover:text-text-primary hover:bg-slate-200/50 transition-all">Dark</button>
+</div>
+</div>
+<div class="p-5 border-b border-surface-border flex items-center justify-between">
+<div>
+<h3 class="font-semibold text-[17px]">Dynamic Color</h3>
+<p class="text-[14px] text-text-secondary mt-1 font-medium">Match system color palette</p>
+</div>
+<label class="switch shrink-0">
+<input checked="" type="checkbox"/>
+<span class="slider"></span>
+</label>
+</div>
+<div class="p-5 flex items-center justify-between">
+<div>
+<h3 class="font-semibold text-[17px]">OLED Dark Mode</h3>
+<p class="text-[14px] text-text-secondary mt-1 font-medium">Pure black background in dark mode</p>
+</div>
+<label class="switch shrink-0">
+<input type="checkbox"/>
+<span class="slider"></span>
+</label>
+</div>
+</div>
+</section>
+<section>
+<h2 class="text-xs font-bold text-primary mb-3 uppercase tracking-widest pl-3">General</h2>
+<div class="bg-surface border border-slate-200 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] rounded-[28px] overflow-hidden">
+<div class="p-5 border-b border-surface-border flex items-center gap-4 cursor-pointer hover:bg-slate-50 transition-colors">
+<div class="w-12 h-12 bg-blue-50 rounded-[28px] flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[24px]">folder_open</span>
+</div>
+<div class="flex-1 min-w-0">
+<h3 class="font-semibold text-[17px]">Download Path</h3>
+<p class="text-[14px] text-text-secondary mt-1 truncate font-medium">/Storage/Snap/Downloads</p>
+</div>
+</div>
+<div class="p-5 flex items-center justify-between">
+<div>
+<h3 class="font-semibold text-[17px]">Auto-Analyze Clipboard</h3>
+<p class="text-[14px] text-text-secondary mt-1 font-medium">Detect links automatically</p>
+</div>
+<label class="switch shrink-0">
+<input checked="" type="checkbox"/>
+<span class="slider"></span>
+</label>
+</div>
+</div>
+</section>
+<section>
+<h2 class="text-xs font-bold text-primary mb-3 uppercase tracking-widest pl-3">Content Preferences</h2>
+<div class="bg-surface border border-slate-200 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] rounded-[28px] overflow-hidden">
+<div class="p-5 border-b border-surface-border flex items-center justify-between cursor-pointer hover:bg-slate-50 transition-colors">
+<div>
+<h3 class="font-semibold text-[17px]">Audio Quality</h3>
+<p class="text-[14px] text-text-secondary mt-1 font-medium">Eco / Standard / Pro</p>
+</div>
+<div class="flex items-center text-primary bg-blue-50 px-3 py-1.5 rounded-[28px] text-[14px] font-bold border border-blue-100">
+      Standard
+      <span class="material-symbols-outlined ml-1 text-[20px]">arrow_drop_down</span>
+</div>
+</div>
+<div class="p-5 border-b border-surface-border flex items-center justify-between cursor-pointer hover:bg-slate-50 transition-colors">
+<div>
+<h3 class="font-semibold text-[17px]">Photo Quality</h3>
+<p class="text-[14px] text-text-secondary mt-1 font-medium">Original / Optimized / Lite</p>
+</div>
+<div class="flex items-center text-primary bg-blue-50 px-3 py-1.5 rounded-[28px] text-[14px] font-bold border border-blue-100">
+      Optimized
+      <span class="material-symbols-outlined ml-1 text-[20px]">arrow_drop_down</span>
+</div>
+</div>
+<div class="p-5 flex items-center justify-between">
+<div>
+<h3 class="font-semibold text-[17px]">Privacy Mode</h3>
+<p class="text-[14px] text-text-secondary mt-1 font-medium">Strip Metadata (EXIF)</p>
+</div>
+<label class="switch shrink-0">
+<input checked="" type="checkbox"/>
+<span class="slider"></span>
+</label>
+</div>
+</div>
+</section>
+<section>
+<h2 class="text-xs font-bold text-primary mb-3 uppercase tracking-widest pl-3">Support &amp; Social</h2>
+<div class="bg-surface border border-slate-200 shadow-[0_4px_20px_-4px_rgba(0,0,0,0.05)] rounded-[28px] overflow-hidden">
+<div class="p-5 border-b border-surface-border flex items-center gap-4 cursor-pointer hover:bg-slate-50 transition-colors">
+<div class="w-12 h-12 bg-slate-100 rounded-[28px] flex items-center justify-center text-slate-700 shrink-0">
+<span class="material-symbols-outlined text-[24px]">code</span>
+</div>
+<div class="flex-1">
+<h3 class="font-semibold text-[17px]">View on GitHub</h3>
+<p class="text-[14px] text-text-secondary mt-1 font-medium">Source code &amp; issues</p>
+</div>
+<span class="material-symbols-outlined text-slate-400 text-[24px] bg-slate-50 p-1 rounded-[28px]">open_in_new</span>
+</div>
+<div class="p-5 flex items-center gap-4 cursor-pointer hover:bg-slate-50 transition-colors">
+<div class="w-12 h-12 bg-slate-100 rounded-[28px] flex items-center justify-center text-slate-700 shrink-0">
+<span class="material-symbols-outlined text-[24px]">gavel</span>
+</div>
+<div class="flex-1">
+<h3 class="font-semibold text-[17px]">Legal / License</h3>
+<p class="text-[14px] text-text-secondary mt-1 font-medium">Terms and open source licenses</p>
+</div>
+<span class="material-symbols-outlined text-slate-400 text-[24px] bg-slate-50 p-1 rounded-[28px]">chevron_right</span>
+</div>
+</div>
+</section>
+</main>
+<footer class="mt-8 mb-8 flex flex-col items-center justify-center text-center">
+<p class="text-text-secondary font-bold text-[14px]">Snap v1.0.0</p>
+<p class="text-text-secondary/70 text-[13px] font-medium mt-1">Made by Afiq</p>
+</footer>
+</body></html>

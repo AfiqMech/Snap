@@ -1,0 +1,19 @@
+﻿
+  error - The getter 'progress' isn't defined for the type 'SnapViewModel' - lib\ui\screens\snap_dashboard.dart:102:33 - undefined_getter
+warning - Dead code - lib\ui\screens\snap_dashboard.dart:104:48 - dead_code
+warning - Dead code - lib\ui\screens\snap_dashboard.dart:110:29 - dead_code
+  error - The getter 'hasShownConfigSheet' isn't defined for the type 'SnapViewModel' - lib\ui\screens\snap_dashboard.dart:111:26 - undefined_getter
+warning - Dead code - lib\ui\screens\snap_dashboard.dart:111:47 - dead_code
+  error - The method 'markConfigSheetShown' isn't defined for the type 'SnapViewModel' - lib\ui\screens\snap_dashboard.dart:112:23 - undefined_method
+warning - Dead code - lib\ui\screens\snap_dashboard.dart:242:60 - dead_code
+warning - Dead code - lib\ui\screens\snap_dashboard.dart:283:39 - dead_code
+warning - Dead code - lib\ui\screens\snap_dashboard.dart:296:39 - dead_code
+warning - Dead code - lib\ui\screens\snap_dashboard.dart:377:49 - dead_code
+warning - Dead code - lib\ui\screens\snap_dashboard.dart:378:67 - dead_code
+warning - Dead code - lib\ui\screens\snap_dashboard.dart:379:70 - dead_code
+warning - Dead code - lib\ui\screens\snap_dashboard.dart:418:39 - dead_code
+warning - Dead code - lib\ui\screens\snap_dashboard.dart:421:39 - dead_code
+warning - Dead code - lib\ui\screens\snap_dashboard.dart:426:39 - dead_code
+warning - Dead code - lib\ui\screens\snap_dashboard.dart:429:39 - dead_code
+   info - 'activeColor' is deprecated and shouldn't be used. Use activeThumbColor instead. This feature was deprecated after v3.31.0-2.0.pre - lib\ui\screens\snap_dashboard.dart:698:21 - deprecated_member_use
+

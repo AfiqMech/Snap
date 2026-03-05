@@ -1,0 +1,62 @@
+﻿> Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :gradle:compileKotlin UP-TO-DATE
+> Task :gradle:compileJava NO-SOURCE
+> Task :gradle:compileGroovy NO-SOURCE
+> Task :gradle:pluginDescriptors UP-TO-DATE
+> Task :gradle:processResources UP-TO-DATE
+> Task :gradle:classes UP-TO-DATE
+> Task :gradle:jar UP-TO-DATE
+
+[Incubating] Problems report is available at: file:///D:/Snap/build/reports/problems/problems-report.html
+.\gradlew : 
+At line:1 char:1
++ .\gradlew assembleDebug 2>&1 | Out-File 
+-Encoding utf8 gradle_out_5.t ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : 
+NotSpecified: (:    String) [], 
+RemoteException
+    + FullyQualifiedErrorId : 
+NativeCommandErr    or
+ 
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file 'C:\Users\afiqh\AppData\Local\Pu
+b\Cache\hosted\pub.dev\shared_preferences_a
+ndroid-2.4.21\android\build.gradle' line: 
+26
+
+* What went wrong:
+Could not create task ':shared_preferences_
+android:compileDebugJavaWithJavac'.
+> Using '--release' option for JavaCompile 
+is not supported because it prevents the 
+Android Gradle plugin
+  from setting up the bootclasspath for 
+compiling Java source files against 
+Android APIs
+  (see 
+https://issuetracker.google.com/278800528).
+  Please use Java toolchain or set 
+'sourceCompatibility' and 
+'targetCompatibility' options instead.
+  (see https://developer.android.com/build/
+jdks#source-compat).
+
+* Try:
+> Run with --stacktrace option to get the 
+stack trace.
+> Run with --info or --debug option to get 
+more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD FAILED in 2s
+4 actionable tasks: 4 up-to-date

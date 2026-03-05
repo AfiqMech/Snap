@@ -124,127 +124,127 @@ class _VideoCompressScreenState extends State<VideoCompressScreen> {
                       color: colorScheme.surfaceContainer,
                       borderRadius: BorderRadius.circular(24),
                       border: Border.all(
-                          color: _selectedFile == null
-                              ? colorScheme.outlineVariant
-                              : colorScheme.primary.withValues(alpha: 0.5),
-                          width: 2,
-                        ),
+                        color: _selectedFile == null
+                            ? colorScheme.outlineVariant
+                            : colorScheme.primary.withValues(alpha: 0.5),
+                        width: 2,
                       ),
-                      clipBehavior: Clip.antiAlias,
-                      child: _selectedFile == null
-                          ? AspectRatio(
-                              aspectRatio: 16 / 9,
-                              child: Center(
-                                child: Padding(
-                                  padding: const EdgeInsets.symmetric(
-                                    vertical: 24,
-                                  ),
-                                  child: Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      Icon(
-                                        Icons.movie_rounded,
-                                        size: 48,
-                                        color: colorScheme.primary,
+                    ),
+                    clipBehavior: Clip.antiAlias,
+                    child: _selectedFile == null
+                        ? AspectRatio(
+                            aspectRatio: 16 / 9,
+                            child: Center(
+                              child: Padding(
+                                padding: const EdgeInsets.symmetric(
+                                  vertical: 24,
+                                ),
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Icon(
+                                      Icons.movie_rounded,
+                                      size: 48,
+                                      color: colorScheme.primary,
+                                    ),
+                                    const SizedBox(height: 16),
+                                    const Text(
+                                      'Tap to select a video',
+                                      style: TextStyle(
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
                                       ),
-                                      const SizedBox(height: 16),
-                                      const Text(
-                                        'Tap to select a video',
-                                        style: TextStyle(
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          )
+                        : AspectRatio(
+                            aspectRatio: 16 / 9,
+                            child: Stack(
+                              fit: StackFit.expand,
+                              children: [
+                                Container(
+                                  color: colorScheme.primary.withValues(
+                                    alpha: 0.1,
+                                  ),
+                                  child: Icon(
+                                    Icons.movie_creation_outlined,
+                                    size: 64,
+                                    color: colorScheme.primary.withValues(
+                                      alpha: 0.3,
+                                    ),
+                                  ),
+                                ),
+                                Positioned.fill(
+                                  child: Container(
+                                    decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                        begin: Alignment.topCenter,
+                                        end: Alignment.bottomCenter,
+                                        colors: [
+                                          Colors.transparent,
+                                          Colors.black.withValues(alpha: 0.8),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                                Positioned(
+                                  left: 16,
+                                  bottom: 16,
+                                  right: 48,
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    mainAxisSize: MainAxisSize.min,
+                                    children: [
+                                      Text(
+                                        p.basename(_selectedFile!.path),
+                                        style: const TextStyle(
                                           fontWeight: FontWeight.bold,
                                           fontSize: 16,
+                                          color: Colors.white,
+                                        ),
+                                        maxLines: 1,
+                                        overflow: TextOverflow.ellipsis,
+                                      ),
+                                      const SizedBox(height: 4),
+                                      Text(
+                                        _formatBytes(_originalSize),
+                                        style: TextStyle(
+                                          color: Colors.white.withValues(
+                                            alpha: 0.7,
+                                          ),
+                                          fontSize: 14,
                                         ),
                                       ),
                                     ],
                                   ),
                                 ),
-                              ),
-                            )
-                          : AspectRatio(
-                              aspectRatio: 16 / 9,
-                              child: Stack(
-                                fit: StackFit.expand,
-                                children: [
-                                  Container(
-                                    color: colorScheme.primary.withValues(
-                                      alpha: 0.1,
+                                Positioned(
+                                  top: 8,
+                                  right: 8,
+                                  child: IconButton(
+                                    icon: const Icon(
+                                      Icons.close,
+                                      color: Colors.white,
                                     ),
-                                    child: Icon(
-                                      Icons.movie_creation_outlined,
-                                      size: 64,
-                                      color: colorScheme.primary.withValues(
-                                        alpha: 0.3,
+                                    style: IconButton.styleFrom(
+                                      backgroundColor: Colors.black.withValues(
+                                        alpha: 0.5,
                                       ),
                                     ),
+                                    onPressed: () => setState(() {
+                                      _selectedFile = null;
+                                      _estimatedSize = 0;
+                                    }),
                                   ),
-                                  Positioned.fill(
-                                    child: Container(
-                                      decoration: BoxDecoration(
-                                        gradient: LinearGradient(
-                                          begin: Alignment.topCenter,
-                                          end: Alignment.bottomCenter,
-                                          colors: [
-                                            Colors.transparent,
-                                            Colors.black.withValues(alpha: 0.8),
-                                          ],
-                                        ),
-                                      ),
-                                    ),
-                                  ),
-                                  Positioned(
-                                    left: 16,
-                                    bottom: 16,
-                                    right: 48,
-                                    child: Column(
-                                      crossAxisAlignment:
-                                          CrossAxisAlignment.start,
-                                      mainAxisSize: MainAxisSize.min,
-                                      children: [
-                                        Text(
-                                          p.basename(_selectedFile!.path),
-                                          style: const TextStyle(
-                                            fontWeight: FontWeight.bold,
-                                            fontSize: 16,
-                                            color: Colors.white,
-                                          ),
-                                          maxLines: 1,
-                                          overflow: TextOverflow.ellipsis,
-                                        ),
-                                        const SizedBox(height: 4),
-                                        Text(
-                                          _formatBytes(_originalSize),
-                                          style: TextStyle(
-                                            color: Colors.white.withValues(
-                                              alpha: 0.7,
-                                            ),
-                                            fontSize: 14,
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                  Positioned(
-                                    top: 8,
-                                    right: 8,
-                                    child: IconButton(
-                                      icon: const Icon(
-                                        Icons.close,
-                                        color: Colors.white,
-                                      ),
-                                      style: IconButton.styleFrom(
-                                        backgroundColor: Colors.black
-                                            .withValues(alpha: 0.5),
-                                      ),
-                                      onPressed: () => setState(() {
-                                        _selectedFile = null;
-                                        _estimatedSize = 0;
-                                      }),
-                                    ),
-                                  ),
-                                ],
-                              ),
+                                ),
+                              ],
                             ),
-                    ),
+                          ),
                   ),
                 ),
 
